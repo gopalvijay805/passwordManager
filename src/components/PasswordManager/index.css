@@ -1,0 +1,239 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 24px;
+  max-height: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #9ba9eb;
+}
+
+.logoImg {
+  height: 65px;
+  width: 190px;
+}
+.sm-container {
+  width: 100%;
+  height: 60vh;
+  background-color: #5763a5;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.image1 {
+  display: none;
+}
+.user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #454f84;
+  border-radius: 10px;
+  height: auto;
+  padding: 17px;
+
+  width: 340px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #f8fafc;
+}
+.input-container {
+  background-color: #f8fafc;
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+.websiteImg {
+  width: 15px;
+  margin: 7px;
+}
+.input {
+  height: 10px;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  padding: 4px;
+  width: 100%;
+  font-size: 10px;
+}
+.button {
+  background-color: #0b69ff;
+  width: 100px;
+  color: #ffffff;
+  border-radius: 9px;
+  font-size: 14px;
+  padding: 9px;
+  border: none;
+  align-self: flex-end;
+}
+.lg-mr-img {
+  width: 25%;
+  height: 100%;
+}
+.user-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: #5763a5;
+  min-height: 60vh;
+  max-height: 100%;
+  border-radius: 4px;
+  padding: 17px;
+  align-items: flex-start;
+}
+
+.user-details-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.password-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.user-title {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: bold;
+  margin-right: 7px;
+}
+.count {
+  width: 40px;
+  border-radius: 20px;
+  border: 2px solid #9ba9eb;
+  text-align: center;
+  color: #f8fafc;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f8fafc;
+  width: 150px;
+  height: 25px;
+  margin-bottom: 17px;
+  border-radius: 4px;
+}
+.hr-line {
+  color: #ffffff;
+  border-style: none;
+  width: 100%;
+}
+.password-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+.check-box {
+  width: 13px;
+  height: 13px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-style: none;
+}
+.label-password {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.empty-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.emptyImg {
+  width: 200px;
+}
+.no-password {
+  color: #ffffff;
+  font-size: 15px;
+}
+.un-list {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.list {
+  background-color: transparent;
+  border: 2px solid #454f84;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 13px;
+  box-sizing: 4px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.initial-color {
+  background-color: #10b981;
+  color: #f8fafc;
+  font-size: 15px;
+  width: 20px;
+  height: 20px;
+  border-radius: 29px;
+  margin-right: 8px;
+  padding: 6px;
+  text-align: center;
+}
+.password-content {
+  color: #f8fafc;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.start-img {
+  width: 60px;
+  height: 12px;
+  margin-top: 4px;
+  margin-left: 6px;
+}
+.para {
+  font-size: 10px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.delete-button {
+  background-color: transparent;
+  border-style: none;
+  margin-right: auto;
+  cursor: pointer;
+}
+.delete-img {
+  width: 25px;
+}
